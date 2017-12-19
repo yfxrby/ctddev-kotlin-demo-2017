@@ -1,4 +1,7 @@
 .gradle
+*.class
+/out/
+/.idea/
 /build/
 
 # Ignore Gradle GUI config
@@ -10,5 +13,5 @@ gradle-app.setting
 # Cache of project
 .gradletasknamecache
 
-# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-1
 # gradle/wrapper/gradle-wrapper.properties
