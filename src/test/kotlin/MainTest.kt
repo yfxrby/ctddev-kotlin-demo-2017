@@ -3,17 +3,17 @@ import org.junit.Test
 
 class MainTest {
     @Test
-    fun test1() {
+    fun testEasy() {
         assertEquals(3, solve(5, arrayOf(1, 2, 5, 4, 3)))
     }
 
     @Test
-    fun test2() {
+    fun testDec() {
         assertEquals(1, solve(5, arrayOf(5, 4, 3, 2, 1)))
     }
 
     @Test
-    fun test3() {
+    fun testInc() {
         assertEquals(5, solve(5, arrayOf(1, 2, 3, 4, 5)))
     }
 }
